@@ -272,5 +272,5 @@ if st.button("Analyser l'e-mail", type="primary"):
                     "Poids SVM": "{:+.4f}",
                     "Contribution": "{:+.4f}"
                 }),
-                width=True
+                width="stretch",
             )
