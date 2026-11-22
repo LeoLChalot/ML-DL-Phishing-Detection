@@ -6,7 +6,7 @@ LinearSVC (combiné à TF-IDF) est mathématiquement transparent.
 
 Sa décision finale repose sur une simple somme pondérée :
 
-$$Score = b + \sum_{i}(WeigthModel_{i} * score_tfidf_{i})$$
+$$Score = b + \sum_{i}(WeigthModel_{i} * scoreTFIDF_{i})$$
 
 Chaque mot ou bigramme reconnu dans l'e-mail apporte donc une contribution exacte :
 - **Contribution positive ($> 0$) :** le terme pousse la prédiction vers Phishing.
